@@ -1,0 +1,16 @@
+@import url(./__url-heading/website__url-heading.css);
+@import url(./__link/website__link.css);
+
+.website {
+    grid-area: website;
+    align-self: end;
+}
+@media (max-width: 767px) {
+    .website {
+        position: absolute;
+        clip: rect(0 0 0 0);
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+    }
+}
